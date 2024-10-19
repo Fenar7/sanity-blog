@@ -35,6 +35,7 @@ export default async function Home() {
           width={500}
           height={500}
           className="rounded-t-lg h-[200px] object-cover"
+          alt={post.title}
           />
 
           <CardContent className="mt-5">
