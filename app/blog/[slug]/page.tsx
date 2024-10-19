@@ -40,6 +40,7 @@ export default async function BlogArticle({params}: {params: {slug:string}}){
             width={800}
             height={800}
             className="rounded-lg mt-8 border"
+            alt={data.title}
             priority/>
 
             <div className="mt-16 prose prose-blue prose-xl dark:prose-invert
